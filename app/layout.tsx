@@ -20,6 +20,12 @@ export const metadata: Metadata = {
       "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
     images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
   },
+  twitter: {
+    title: "UC San Astra - Where Magic Meets Innovation",
+    description:
+      "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
+    images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
+  },
 };
 
 export default function RootLayout({
