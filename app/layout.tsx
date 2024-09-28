@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Mate } from "next/font/google";
 import logo from "@/lib/images/logo.png";
 import "./globals.css";
