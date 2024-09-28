@@ -16,11 +16,25 @@ export default function Home() {
         }}
       >
         <div className="h-full flex flex-col justify-between p-12 bg-black bg-opacity-25">
-          <div>
+          <div className="flex justify-between items-center">
             <Link href="/" className="flex items-center">
               <Image src={logo} alt="logo" height="30" className="mr-4" />
               <div className="text-white text-3xl">UCSA</div>
             </Link>
+            <div className="text-white space-x-12">
+              <Link
+                href="/about"
+                className="p-4 rounded hover:bg-black hover:bg-opacity-20"
+              >
+                About
+              </Link>
+              <Link
+                href="/programs"
+                className="p-4 rounded hover:bg-black hover:bg-opacity-20"
+              >
+                Programs
+              </Link>
+            </div>
           </div>
           <div className="text-white">
             <div className="text-7xl">University of California</div>

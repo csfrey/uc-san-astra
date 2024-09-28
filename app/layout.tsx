@@ -10,23 +10,23 @@ const font = Mate({
   weight: "400",
 });
 
-export const metadata: Metadata = {
-  title: "UC San Astra - Where Magic Meets Innovation",
-  description:
-    "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
-  openGraph: {
-    title: "UC San Astra - Where Magic Meets Innovation",
-    description:
-      "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
-    images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
-  },
-  twitter: {
-    title: "UC San Astra - Where Magic Meets Innovation",
-    description:
-      "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
-    images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
-  },
-};
+// export const metadata: Metadata = {
+//   title: "UC San Astra - Where Magic Meets Innovation",
+//   description:
+//     "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
+//   openGraph: {
+//     title: "UC San Astra - Where Magic Meets Innovation",
+//     description:
+//       "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
+//     images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
+//   },
+//   twitter: {
+//     title: "UC San Astra - Where Magic Meets Innovation",
+//     description:
+//       "Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community.",
+//     images: [{ url: "https://i.imgur.com/oAGIsOH.png" }],
+//   },
+// };
 
 export default function RootLayout({
   children,
@@ -35,6 +35,41 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>UCSA - Where Magic Meets Innovation</title>
+        <meta name="title" content="UCSA - Where Magic Meets Innovation" />
+        <meta
+          name="description"
+          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ucsa.vercel.app/" />
+        <meta
+          property="og:title"
+          content="UCSA - Where Magic Meets Innovation"
+        />
+        <meta
+          property="og:description"
+          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+        />
+        <meta property="og:image" content="https://i.imgur.com/oAGIsOH.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://ucsa.vercel.app/" />
+        <meta
+          property="twitter:title"
+          content="UCSA - Where Magic Meets Innovation"
+        />
+        <meta
+          property="twitter:description"
+          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.imgur.com/oAGIsOH.png"
+        />
+      </head>
       <body
         className={`${font.className} antialiased min-h-screen flex flex-col`}
       >
