@@ -41,8 +41,11 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         <footer className="bg-amber-700 p-8 flex text-white">
           <div className="flex items-center">
-            <Image src={logo} alt="logo" height="50" />
-            <div className="text-4xl">UC San Astra</div>
+            <Image src={logo} alt="logo" height="50" className="mr-4" />
+            <div>
+              <div className="text-xl">University of California </div>
+              <div className="text-5xl">San Astra</div>
+            </div>
           </div>
           <div className="mx-16">
             <div className="text-2xl">Visit Us</div>
