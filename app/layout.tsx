@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Mate } from "next/font/google";
+import logo from "@/lib/images/logo.png";
 import "./globals.css";
+import Image from "next/image";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const font = Mate({
+  subsets: ["latin"],
+  display: "swap",
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -26,9 +24,27 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${font.className} antialiased min-h-screen flex flex-col`}
       >
-        {children}
+        <main className="flex-grow">{children}</main>
+        <footer className="bg-amber-700 p-8 flex text-white">
+          <div className="flex items-center">
+            <Image src={logo} alt="logo" height="50" />
+            <div className="text-4xl">UC San Astra</div>
+          </div>
+          <div className="mx-16">
+            <div className="text-2xl">Visit Us</div>
+            <div>UCSA Downtown Campus</div>
+            <div>100 College Avenue</div>
+            <div>San Astra, CA 42069</div>
+          </div>
+          <div>
+            <div className="text-2xl">Contact Us</div>
+            <div>admissions@ucsa.edu</div>
+            <div>(555) 123-4567</div>
+            <div>Hours: M-F 7:00am - 4:30pm</div>
+          </div>
+        </footer>
       </body>
     </html>
   );
