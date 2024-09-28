@@ -1,7 +1,6 @@
 import Image from "next/image";
 import hero from "@/lib/images/student-life-hero.png";
 import logo from "@/lib/images/logo.png";
-import map from "@/lib/images/san-astra-map.png";
 import arial from "@/lib/images/campus-arial.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";

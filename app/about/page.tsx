@@ -55,7 +55,11 @@ const About = () => {
         </div>
       </section>
       <section className="mb-12">
-        <Image src={studying} alt="students studying" className="bg-cover" />
+        <Image
+          src={studying}
+          alt="students studying"
+          className="bg-cover w-full"
+        />
         <div className="p-12">
           <div className="text-4xl mb-4">
             Innovative Programs for a Changing World
