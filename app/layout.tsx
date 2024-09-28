@@ -40,7 +40,7 @@ export default function RootLayout({
         <meta name="title" content="UCSA - Where Magic Meets Innovation" />
         <meta
           name="description"
-          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+          content="Welcome to the University of California, San Astra – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
         />
 
         <meta property="og:type" content="website" />
@@ -51,7 +51,7 @@ export default function RootLayout({
         />
         <meta
           property="og:description"
-          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+          content="Welcome to the University of California, San Astra – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
         />
         <meta property="og:image" content="https://i.imgur.com/oAGIsOH.png" />
 
@@ -63,7 +63,7 @@ export default function RootLayout({
         />
         <meta
           property="twitter:description"
-          content="Welcome to UCSA – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
+          content="Welcome to the University of California, San Astra – A leading institution at the intersection of arcane arts and cutting-edge technology. Our mission is to shape the innovators of tomorrow through immersive education, groundbreaking research, and a vibrant, inclusive community."
         />
         <meta
           property="twitter:image"
