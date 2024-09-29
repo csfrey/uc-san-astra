@@ -98,7 +98,7 @@ export default function RootLayout({
           <p className="w-1/3 pl-16 text-[11px]">
             This is a work of fiction. Unless otherwise indicated, all the
             names, characters, businesses, places, events and incidents in this
-            website are either the product of the author's imagination or used
+            website are either the product of the author’s imagination or used
             in a fictitious manner. The University of California, San Astra
             (UCSA) is a fictional institution created for a Dungeons & Dragons
             game and does not exist in reality. Any references to this
