@@ -73,26 +73,39 @@ export default function RootLayout({
         className={`${font.className} antialiased min-h-screen flex flex-col`}
       >
         <main className="flex-grow">{children}</main>
-        <footer className="bg-amber-700 p-8 flex text-white">
-          <div className="flex items-center">
-            <Image src={logo} alt="logo" height="50" className="mr-4" />
+        <footer className="bg-amber-700 p-8 flex justify-between items-center text-white">
+          <div className="flex">
+            <div className="flex items-center">
+              <Image src={logo} alt="logo" height="50" className="mr-4" />
+              <div>
+                <div className="text-xl">University of California </div>
+                <div className="text-5xl">San Astra</div>
+              </div>
+            </div>
+            <div className="mx-16">
+              <div className="text-2xl">Visit Us</div>
+              <div>UCSA Downtown Campus</div>
+              <div>100 College Avenue</div>
+              <div>San Astra, CA 42069</div>
+            </div>
             <div>
-              <div className="text-xl">University of California </div>
-              <div className="text-5xl">San Astra</div>
+              <div className="text-2xl">Contact Us</div>
+              <div>admissions@ucsa.edu</div>
+              <div>(555) 123-4567</div>
+              <div>Hours: M-F 7:00am - 4:30pm</div>
             </div>
           </div>
-          <div className="mx-16">
-            <div className="text-2xl">Visit Us</div>
-            <div>UCSA Downtown Campus</div>
-            <div>100 College Avenue</div>
-            <div>San Astra, CA 42069</div>
-          </div>
-          <div>
-            <div className="text-2xl">Contact Us</div>
-            <div>admissions@ucsa.edu</div>
-            <div>(555) 123-4567</div>
-            <div>Hours: M-F 7:00am - 4:30pm</div>
-          </div>
+          <p className="w-1/3 pl-16 text-[11px]">
+            This is a work of fiction. Unless otherwise indicated, all the
+            names, characters, businesses, places, events and incidents in this
+            website are either the product of the author's imagination or used
+            in a fictitious manner. The University of California, San Astra
+            (UCSA) is a fictional institution created for a Dungeons & Dragons
+            game and does not exist in reality. Any references to this
+            university are for creative and entertainment purposes only. This
+            content is protected under fair use for the purposes of parody,
+            commentary, and creative expression.
+          </p>
         </footer>
       </body>
     </html>
